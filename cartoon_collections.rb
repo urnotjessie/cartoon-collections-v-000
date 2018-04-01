@@ -6,15 +6,12 @@ end
 
 def summon_captain_planet(planeteer_calls)
     planeteer_calls.map! { |call| call.capitalize }
-    collection = []
-    planeteer_calls.each do |call|
-        collection << (call + '!' )
+    planeteer_calls.collect { |call| call + '!' }
     end
-    collection
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(words)
+    words.any
 end
 
 def find_the_cheese# code an argument here
