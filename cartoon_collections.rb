@@ -20,4 +20,5 @@ def find_the_cheese(list)
       true
   else
       false
+  end
 end
