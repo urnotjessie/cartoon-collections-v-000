@@ -6,8 +6,10 @@ end
 
 def summon_captain_planet(planeteer_calls)
     planeteer_calls.map! { |call| call.capitalize }
-    planeteer_calls.each { |call| call + '!' }
-    return planeteer_calls
+    collection = []
+    planeteer_calls.each do |call|
+        collection << (call + '!' )
+    end
 end
 
 def long_planeteer_calls# code an argument here
