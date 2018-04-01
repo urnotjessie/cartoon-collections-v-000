@@ -10,6 +10,7 @@ def summon_captain_planet(planeteer_calls)
     planeteer_calls.each do |call|
         collection << (call + '!' )
     end
+    collection
 end
 
 def long_planeteer_calls# code an argument here
