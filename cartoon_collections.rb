@@ -18,7 +18,5 @@ def find_the_cheese(list)
   cheese_types = ["cheddar", "gouda", "camembert"]
   if list.include?("cheddar") || list.include?("gouda") || list.include?("camembert")
       true
-  else
-      false
   end
 end
